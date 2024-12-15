@@ -108,6 +108,50 @@
             .social-icons a:hover {
             color: #0077b5;
             }
+            body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    .houses, .games-points, .results {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .highlight {
+      background-color: #d4edda;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
     </style>
 </head>
 <body>
@@ -123,10 +167,10 @@
         </div>
 
         <div class="social-icons">
-           <a href="https://www.facebook.com/profile.php?id=100069630625144" target="_blank" title="Facebook">
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">
             <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.instagram.com/srinivasa_school" target="_blank" title="Instagram">
+            <a href="https://www.instagram.com" target="_blank" title="Instagram">
             <i class="fab fa-instagram"></i>
             </a>
             <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
@@ -230,12 +274,155 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-1g-12">
-                <h2 style="color:red">House Caninet</h2>
-            </div>
+        <h1 style="color:red; text-align: left;padding-top: 10px;">School House Competition Information</h1>
+        
+        <div class="houses">
+          <h2>Our Four School Houses</h2>
+          <ul>
+            <li><b>Subhash Chandra Bose House:</b> Dark Green</li>
+            <li><b>Jawaharlal Nehru House:</b> Red</li>
+            <li><b>Sardar Vallabhbhai Patel House:</b> Yellow</li>
+            <li><b>Rabindranath Tagore House:</b> Dark Blue</li>
+          </ul>
         </div>
-    </div>
+    
+        <div class="games-points">
+          <h2>Competition Points System</h2>
+          <h3>Position-based Points</h3>
+          <table>
+            <tr>
+              <th>Position</th>
+              <th>Points</th>
+            </tr>
+            <tr>
+              <td>1st Place</td>
+              <td>100 points</td>
+            </tr>
+            <tr>
+              <td>2nd Place</td>
+              <td>75 points</td>
+            </tr>
+            <tr>
+              <td>3rd Place</td>
+              <td>50 points</td>
+            </tr>
+            <tr>
+              <td>4th Place</td>
+              <td>25 points</td>
+            </tr>
+          </table>
+    
+          <h3>Games and Events Points</h3>
+          <table>
+            <tr>
+              <th>Game/Event</th>
+              <th>Bose</th>
+              <th>Nehru</th>
+              <th>Patel</th>
+              <th>Tagore</th>
+            </tr>
+            <tr>
+              <td>Annual Sports Day</td>
+              <td>650/1100</td>
+              <td>850/1100</td>
+              <td>520/1100</td>
+              <td>750/1100</td>
+            </tr>
+            <tr>
+              <td>Inter-House Quiz Competition</td>
+              <td>570/900</td>
+              <td>650/900</td>
+              <td>425/900</td>
+              <td>625/900</td>
+            </tr>
+            <tr>
+              <td>Debate Competition</td>
+              <td>100</td>
+              <td>75</td>
+              <td>25</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Art and Craft Exhibition</td>
+              <td>25</td>
+              <td>75</td>
+              <td>100</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Music Competition</td>
+              <td>50</td>
+              <td>25</td>
+              <td>75</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Drama Competition</td>
+              <td>25</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <td>Science Fair</td>
+              <td>100</td>
+              <td>75</td>
+              <td>25</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eco-Club Activities</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+              <td>25</td>
+            </tr>
+            <tr class="highlight">
+              <td>Total</td>
+              <td>1570</td>
+              <td>1900</td>
+              <td>1345</td>
+              <td>1725</td>
+            </tr>
+          </table>
+        </div>
+    
+        <div class="results">
+          <h2>House Competition Results</h2>
+          <p>Every competition uses the points system as mentioned above. After all events are completed, points are summed up, and the winners and runners-up are declared accordingly. The games points are awarded to the winning house, and then position-based points are added to determine the final standings.</p>
+          
+          <h3>General Results Overview:</h3>
+          <table>
+            <tr>
+              <th>Position</th>
+              <th>Final Results</th>
+       
+            </tr>
+            <tr class="highlight">
+              <td>1st</td>
+              <td>Jawaharlal Nehru (Red)</td>
+     
+            </tr>
+            <tr>
+              <td>2nd</td>
+              <td>Rabindranath Tagore (Dark Blue)</td>
+            
+            </tr>
+            <tr>
+              <td>3rd</td>
+              <td>Subhash Chandra Bose (Dark Green)</td>
+          
+            </tr>
+            <tr>
+              <td>4th</td>
+              <td>Sardar Vallabhbhai Patel (Yellow)</td>
+    
+            </tr>
+          </table>
+          
+          <p><b>Note:</b> Nehru House (Red) is the most frequently declared winner across competitions, with Tagore House (Dark Blue) as the common runner-up.</p>
+        </div>
+      </div>
 
     <div class="foot-panel2 mt-4">
         <div class="logo-img">
