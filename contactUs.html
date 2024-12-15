@@ -72,9 +72,64 @@
                 width: 100%;
             }
         }
+    .top-bar {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 7px 15px;
+            font-family: Arial, sans-serif;
+            border-bottom: 1px solid #ddd;
+            }
+
+            /* Left links style (Phone/Email) */
+            .contact-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            }
+
+            .contact-links a:hover {
+            color: #555;
+            }
+
+            /* Social media icons style (on right side) */
+            .social-icons a {
+            margin-left: 10px;
+            color: #333;
+            font-size: 18px;
+            }
+
+            .social-icons a:hover {
+            color: #0077b5;
+            }
     </style>
 </head>
 <body>
+    <div class="top-bar">
+        <!-- Left Side Links -->
+        <div class="contact-links">
+        <a href="tel:+9059706306">
+            <i class="fas fa-phone"></i> +91 9059706306
+        </a>
+        <a href="mailto:shs.nagulapadu@gmail.com">
+            <i class="fas fa-envelope"></i> shs.nagulapadu@gmail.com
+        </a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100069630625144" target="_blank" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/srinivasa_school" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>      
     <div class="content-wrapper">
         <img src="./images/log0.png" class="schoollogo" alt="School logo">
 
