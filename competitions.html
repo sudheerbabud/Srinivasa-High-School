@@ -108,6 +108,39 @@
             .social-icons a:hover {
             color: #0077b5;
             }
+
+            body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+.foot-panel2 {
+  flex-shrink: 0;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .foot-panel2 {
+    position: sticky;
+    bottom: 0;
+    background-color: #f8f9fa;
+    z-index: 1000;
+  }
+
+  footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 1001;
+  }
+}
     </style>
 </head>
 <body>
